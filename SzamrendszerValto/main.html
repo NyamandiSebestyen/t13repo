@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számrendszer váltó</title>
+    <link rel="shortcut icon" href="icon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="pt-3">Számrendszer váltó</h1>
+    </header>
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-12 col-xl-2 col-xxl-2 my-3">
+                <label for="bemenetiSzam" class="form-label">Átváltani kívánt szám:</label>
+                <input id="bemenetiSzam" class="form-control " type="text">
+            </div>
+
+
+
+            <div class="col-12 col-xl-2 col-xxl-2 my-3">
+                <label for="bemenetiSzamrendszer" class="form-label">Számrendszerből:</label>
+                <select class="form-select" name="bemenetiSzamrendszer" id="bemenetiSzamrendszer"
+                    aria-label="Default select example">
+                    <option value="2">Kettes számrendszer</option>
+                    <option value="3">Hármas számrendszer</option>
+                    <option value="4">Négyes számrendszer</option>
+                    <option value="5">Ötös számrendszer</option>
+                    <option value="6">Hatos számrendszer</option>
+                    <option value="7">Hetes számrendszer</option>
+                    <option value="8">Nyolcas számrendszer</option>
+                    <option value="9">Kilences számrendszer</option>
+                    <option value="10" selected>Tizes számrendszer</option>
+                </select>
+            </div>
+            <div class="col-12 col-xl-2 col-xxl-2 my-3">
+                <label for="kimenetiSzamrendszer" class="form-label">Számrendszerbe:</label>
+                <select class="form-select" name="kimenetiSzamrendszer" id="kimenetiSzamrendszer">
+                    <option value="2">Kettes számrendszer</option>
+                    <option value="3">Hármas számrendszer</option>
+                    <option value="4">Négyes számrendszer</option>
+                    <option value="5">Ötös számrendszer</option>
+                    <option value="6">Hatos számrendszer</option>
+                    <option value="7">Hetes számrendszer</option>
+                    <option value="8">Nyolcas számrendszer</option>
+                    <option value="9">Kilences számrendszer</option>
+                    <option value="10">Tizes számrendszer</option>
+                </select>
+            </div>
+
+            <div class="col-12 col-xl-2 col-xxl-2 my-5"> <button id="valtoGomb" class="btn btn-danger">Átváltás</button></div>
+            <div class="col-12 my-3">
+               <div class="keret"> <p id="eredmeny"></p></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="szamrendszer.js"></script>
+    <footer></footer>
+</body>
+
+</html>

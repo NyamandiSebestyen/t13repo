@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+header{
+    background-color:#003049;
+    font-family: 'Sixtyfour', sans-serif;
+    color: #edede9;
+    text-align: center;
+    height: 10vh;
+    
+}
+body{
+    background-color: lightgoldenrodyellow;
+    
+}
+p{
+    font-weight: bold;
+    font-size: xx-large;
+   border: none;
+   padding: 5px;
+}
+
+.keret{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color:#003049;
+    height: 10vh;
+    width: 100%;
+}
