@@ -1,0 +1,20 @@
+1) Hozzon létre egy kollekciót "Fifa" néven.MongoDB segítségével, Atlas felhőszolgáltatásba!
+
+2) Az előbb létrehozzott kollekciójába helyezze el a txt államányban található adatokat, dokumentumokban rendezve, az állományban az összetartozó adatok soronként vannak elhelyezve, elválasztó karakterük pedig ";"!
+Az adattípusok a következők:
+//Csapat
+//Helyezes
+//Valtozas
+//Pontszam
+
+3) Mivel alapnak ABC rendben vannak a csapatok, ami nekünk nem megfelelő, rendezze immáron pontszám szerint őket, csupán a csapat neve és a helyezése jelenjen meg, pontszám szerint csökennő sorban...
+
+4) Jelenítse meg a legjobb 3 csapat minden adatát! Helyezésük alapján rendezve.
+
+5) Listázza ki azoknak a csapatoknak a nevét, amik az előző alkalom óta helyezésük nem változott!
+
+6) Jelenítse meg azoknak a csapatoknak a nevét és pontszámát, akik 1600 pontnál többet szereztek
+
+7) Mely csapat rontotta a legtöbb helyezést a korábbi évekhez képest, feltételezheti, hogy csupán egyetlen ilyen csapatról beszélünk. A csapat nevét elég  és a változás mértékét elegendő megjelenítenie
+
+Megjegyzés: A feltöltéshez, ha be szeretnéd küldeni, csatold a parancsokat tartalmazó fájlokat.
